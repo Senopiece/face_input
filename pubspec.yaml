@@ -1,0 +1,27 @@
+name: face_input
+description: Provides face gestures from the camera to the application
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+  flutter: ">=2.5.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  protobuf: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  pigeon: ^4.2.6
+  protoc_plugin: ^20.0.1
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.example.face_input
+        pluginClass: FaceInputPlugin

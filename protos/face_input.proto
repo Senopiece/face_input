@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "com.example.face_input.models";
+
+message FaceState {
+    float leftEyeOpenProbability = 1;
+    float rightEyeOpenProbability = 2;
+    float headEulerAngleY = 3;
+}
