@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'player.dart';
+import 'fc_slider.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: const Text('Plugin example app'),
         ),
-        body: const MyPlayer(),
+        body: const FCSlider(),
       ),
     );
   }
